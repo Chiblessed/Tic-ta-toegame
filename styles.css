@@ -1,0 +1,77 @@
+body{
+    background:  rgb(223, 10, 194);
+}
+.square{
+    width: 85px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0px 0px 2px 2px;
+    text-align: center;
+    font-size: 50px;
+}
+.gamecontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 225px;
+   margin-bottom: 20px;
+   
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    max-width: 450px;
+    margin: 2rem auto auto auto;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    
+}
+.message{
+    font-size: 20px;
+    color: black;
+}
+.gameform{
+    padding: 20px;
+}
+input{
+    
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+}
+input[type=text]{
+    font-size: 20px;
+    font-family: Poppins;
+}
+.startbtn{
+width: 30%;
+height: 40px;
+font-size: 25px;
+font-family: Poppins;
+border: none;
+background: rgba(187, 15, 15, 0.747);
+border-radius: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.errormsg{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+.restartbtn{
+width: 30%;
+height: 40px;
+font-size: 25px;
+font-family: Poppins;
+border: none;
+background: rgb(219, 78, 78);
+border-radius: 20px;
+margin-bottom: 10px;
+}
+.scoremsg{
+    font-size: 30px;
+}
